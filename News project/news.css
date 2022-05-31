@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar .news_navbar .newsLogo{
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+}
+.navbar .news_navbar .head{
+  color: whitesmoke;
+  font-size: 1.8rem;
+  margin: auto 0;
+}
+.container .newsTitle h2.title{
+    font-size: 1.8rem;
+}
+.showNews #news{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+#sectionBar{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(36, 34, 34);
+}
+#sectionh1{
+    text-align: center;
+    color: red;
+    font-size: 1.3rem;
+}
+#sectionBar a{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+/* ################################## midia qurey #######################  */
+
+@media (min-width:1100px) and (max-width:1290px){
+    .navbar .news_navbar .newsLogo{
+        height: 39px;
+        width: 39px;
+    }
+    .navbar .news_navbar .head{
+      font-size: 1.5rem;
+    }
+    #sectionBar{
+        height: 7%;
+    }
+    #sectionh1{
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width:866px) and (max-width:1100px){
+    .navbar .news_navbar .newsLogo{
+        height: 32px;
+        width: 32px;
+    }
+    .navbar .news_navbar .head{
+      font-size: 1.1rem;
+    }
+    #sectionBar{
+        height: 7%;
+    } 
+    #sectionBar{
+        height: 7%;
+    }
+    #sectionh1{
+        font-size: 1.1rem;
+    }
+    .container .newsTitle h2.title{
+        font-size: 1.7rem;
+    }
+    #collepsNews #news p button{
+      font-size: 1rem;  
+    }
+}
+
+@media (min-width:200px) and (max-width:866px){
+    .navbar .news_navbar .newsLogo{
+        height: 28px;
+        width: 28px;
+    }
+    .navbar .news_navbar .head{
+      font-size: 1rem;
+    }
+    #sectionBar{
+        height: 7%;
+    }
+    #sectionh1{
+        font-size: 1rem;
+    }
+    #sectionBar a{
+        font-size: 1.1rem;
+        padding-top: 0.3rem;
+    }
+    .container .newsTitle h2.title{
+        font-size: 1.5rem;
+    }
+    #collepsNews #news p button{
+        font-size: 0.9rem;  
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #collepsNews #news div{
+        font-size: 0.9rem;  
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .country{
+        width: 700px;
+    }
+}
+
+@media (min-width:200px) and (max-width:580px){
+    #collepsNews #news p button{
+        font-size: 0.8rem;  
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #collepsNews #news div{
+        font-size: 0.7rem;  
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .country{
+        width: 100%;
+    }
+}
